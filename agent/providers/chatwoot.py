@@ -66,13 +66,6 @@ class ProveedorChatwoot(ProveedorWhatsApp):
         telefono = contact.get("phone_number", "") or conversation_id
         mensaje_id = str(body.get("id", ""))
 
-        # Verificar que la conversación no esté asignada a un humano
-        # Si tiene un assignee, significa que un humano tomó control
-        assignee = conversation.get("meta", {}).get("assignee")
-        if assignee:
-            logger.info(f"Conversación {conversation_id} asignada a humano — Daimon no responde")
-            return []
-
         if not contenido:
             return []
 
