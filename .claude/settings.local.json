@@ -18,7 +18,10 @@
       "Write",
       "Edit",
       "Glob",
-      "Grep"
+      "Grep",
+      "Bash(curl -s -H \"api_access_token: rSgLfk4KrjzcZsS3LaXcVv2U\" https://devchatwoot.planetasaturno.com/auth/sign_in)",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(''''Account ID:'''', d.get\\(''''data'''',{}\\).get\\(''''account_id'''',''''no encontrado''''\\)\\)\")",
+      "Bash(curl:*)"
     ]
   }
 }
