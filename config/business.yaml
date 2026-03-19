@@ -1,0 +1,24 @@
+# Configuración del negocio — Generado por AgentKit
+negocio:
+  nombre: "Se Instala Shop"
+  descripcion: >
+    Ecommerce especializado en la venta de herramientas eléctricas y equipos para
+    instaladores de gráfica y profesionales del rubro. Ofrecemos marcas reconocidas
+    como Bosch, Makita, DeWalt, Stanley, Black+Decker, Dremel, Skil, Einhell,
+    Lusqtoff, Lincoln Electric, Miller, Twilio y más. Nuestros clientes son
+    instaladores de gráfica, rotuladores, talleres y profesionales que necesitan
+    herramientas de calidad para su trabajo diario.
+  horario: "Lunes a Viernes de 10:30 a 17:00"
+
+agente:
+  nombre: "Daimon"
+  tono: "Empático y cálido"
+  casos_de_uso:
+    - "Responder preguntas frecuentes sobre productos y disponibilidad"
+    - "Calificar y atender leads y consultas de ventas"
+    - "Tomar pedidos y registrar intención de compra"
+    - "Soporte post-venta y seguimiento de pedidos"
+
+metadata:
+  creado: "2026-03-19"
+  version: "1.0"
